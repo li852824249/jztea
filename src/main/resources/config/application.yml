@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+    
+mybatis:
+    typeAliasesPackage: com.cn.ljz.tea.entity
+    mapperLocations: classpath:mapper/*.xml
+ 
+    
+    
